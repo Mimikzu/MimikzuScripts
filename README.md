@@ -4,9 +4,11 @@
 Minecraft · Rocket League · Modrinth · Discord
 
 This repository-style collection groups small scripts by what they do. Most
-utilities run locally and use sample files. The voice agent needs Python
-packages and downloads its speech model on first launch. The Modrinth stats
-tool contacts Modrinth's public API; it uses no Discord login or API token.
+utilities run locally and use sample files. The Modrinth stats tool contacts
+Modrinth's public API; it uses no Discord login or API token.
+
+Looking for voice controls for Minecraft and Rocket League? They live in their
+own repo: [voice-game-agent](https://github.com/Mimikzu/voice-game-agent).
 
 ## 📁 What's inside
 
@@ -23,8 +25,6 @@ tool contacts Modrinth's public API; it uses no Discord login or API token.
 
 ### Minecraft
 
-- `voice_game_agent.py` — local voice-to-keyboard controls with a Minecraft
-  profile. Use `start_minecraft.bat`.
 - `donutsmp_tools.py` — offline coordinate conversion, spawner-cost math, and
   supplied rate estimates.
 - `offline_community_tools/minecraft_world_impact_preview.py` — compare local
@@ -36,8 +36,6 @@ tool contacts Modrinth's public API; it uses no Discord login or API token.
 
 ### Rocket League
 
-- `voice_game_agent.py` — local voice controls with a Rocket League profile.
-  Use `start_rocket_league.bat`.
 - `offline_community_tools/rocket_replay_integrity_receipt.py` — SHA-256
   receipt for a local replay file. It does not independently verify match
   metadata.
@@ -52,16 +50,10 @@ tool contacts Modrinth's public API; it uses no Discord login or API token.
 
 ## 🚀 Getting started
 
-Install Python 3.10 or later. To install the voice agent's dependencies:
+Install Python 3.10 or later. Everything here uses only Python's standard
+library, so there is nothing else to install.
 
-```powershell
-python -m pip install -r requirements.txt
-```
-
-Run the voice agent by double-clicking `start_minecraft.bat` or
-`start_rocket_league.bat`. Press **F12** to stop it.
-
-Examples for the other local tools are in `offline_community_tools/README.md`.
+Examples for the offline tools are in `offline_community_tools/README.md`.
 For standalone utilities, run `python .\donutsmp_tools.py --help` or
 `python .\modrinth_stats.py --help`.
 
