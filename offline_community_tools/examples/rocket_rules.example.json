@@ -1,0 +1,5 @@
+{
+  "max_roster_size": 3,
+  "eligible_players": ["Alex", "Blair", "Casey", "Drew"],
+  "locked_players": ["Alex"]
+}

@@ -1,0 +1,9 @@
+{
+  "roster": {
+    "Blue": ["Alex", "Blair"],
+    "Orange": ["Casey"]
+  },
+  "matches": [
+    {"team_a": "Blue", "team_b": "Orange", "time": "2026-11-01T18:00:00Z"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "everyone_role_id": "everyone",
+  "verified_role_ids": ["verified"],
+  "unverified_role_ids": ["pending"],
+  "roles": [
+    {"id": "everyone", "name": "@everyone"},
+    {"id": "verified", "name": "Verified"},
+    {"id": "pending", "name": "Pending"},
+    {"id": "member", "name": "Member"}
+  ],
+  "channels": [
+    {"name": "#welcome", "visible_to_roles": [], "hidden_from_roles": []},
+    {"name": "#verify-here", "visible_to_roles": ["pending", "verified"], "hidden_from_roles": []},
+    {"name": "#general", "visible_to_roles": ["verified"], "hidden_from_roles": ["pending"]}
+  ]
+}

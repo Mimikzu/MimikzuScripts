@@ -1,0 +1,46 @@
+{
+  "everyone_role_id": "everyone",
+  "roles": [
+    {
+      "id": "everyone",
+      "name": "@everyone",
+      "permissions": ["view_channel", "send_messages"]
+    },
+    {
+      "id": "moderator",
+      "name": "Moderator",
+      "permissions": ["view_channel", "send_messages"]
+    },
+    {
+      "id": "member",
+      "name": "Member",
+      "permissions": ["view_channel", "send_messages"]
+    }
+  ],
+  "members": [
+    {
+      "id": "user-001",
+      "name": "Alex",
+      "roles": ["moderator"]
+    },
+    {
+      "id": "user-002",
+      "name": "Sam",
+      "roles": ["member"]
+    }
+  ],
+  "channels": [
+    {
+      "id": "general",
+      "name": "#general",
+      "overwrites": [
+        {
+          "type": "role",
+          "target_id": "everyone",
+          "allow": ["view_channel"],
+          "deny": []
+        }
+      ]
+    }
+  ]
+}

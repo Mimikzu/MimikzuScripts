@@ -1,0 +1,6 @@
+{
+  "action": "roster_move",
+  "team": "Orange",
+  "destination": "Blue",
+  "player": "Casey"
+}

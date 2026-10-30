@@ -1,0 +1,5 @@
+{
+  "blocks": {"10,64,10": "stone", "11,64,10": "oak_planks"},
+  "block_owners": {"10,64,10": "Alex", "11,64,10": "Alex"},
+  "inventories": {"Alex": {"stone": 12, "oak_planks": 8}}
+}

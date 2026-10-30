@@ -1,0 +1,4 @@
+{
+  "blocked_terms": ["fake giveaway domain"],
+  "allowed_attachment_extensions": [".png", ".jpg", ".jpeg", ".txt"]
+}

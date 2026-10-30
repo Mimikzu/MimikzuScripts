@@ -1,0 +1,6 @@
+{
+  "changes": [
+    {"position": "0,64,0", "current": "cobblestone", "restore_to": "oak_planks", "actor": "Alex"},
+    {"position": "1,64,0", "current": "stone", "restore_to": "grass_block", "actor": "Blair"}
+  ]
+}
